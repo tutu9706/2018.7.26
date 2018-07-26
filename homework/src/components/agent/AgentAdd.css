@@ -1,0 +1,67 @@
+/*遮罩*/
+.Popup_bg{
+    background:rgba(0, 0, 0, .3);
+    position: fixed;
+    left:0;
+    top:0;
+    bottom:0;
+    right:0;
+
+}
+/*主体*/
+.Popup_box{
+    width:600px;
+    height:300px;
+    background: #fff;
+    max-height: 500px;
+    overflow: auto;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-300px;
+    margin-top:-250px;
+    border:1px solid #45c8dc;
+}
+/*头部*/
+.Popup_head{
+    height:50px;
+   
+}
+.Popup_close{
+    position: absolute;
+    right:10px;
+    cursor:pointer;
+    font-size:20px;
+    color:#45c8dc;
+}
+.Popup_content{
+    text-align: center;
+    font-size:30px;
+    line-height:30px;
+    margin-top:60px;
+}
+.Popup_handle{
+    text-align: center;
+    margin-top:60px;
+}
+.Popup_ok,.Popup_cancel{
+    width:100px;
+    height:50px;
+    line-height:50px;
+    color:#fff;
+    cursor:pointer;
+}
+.Popup_ok{
+    margin-right:50px;
+    background:rgb(112, 211, 250);
+    
+}
+.Popup_ok:hover{
+   background:#45c8dc;
+}
+.Popup_cancel{
+    background:#ccc;
+}
+.Popup_cancel:hover{
+    background:#999;
+}
